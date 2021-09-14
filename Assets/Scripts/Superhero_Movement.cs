@@ -13,6 +13,8 @@ public class Superhero_Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        transform.Translate(1, 0, 0);
     }
 }
+//public class is like a blueprint. objects are created from it. everything done is an object. start is called once. geme is made up of frames. things happening consitantl in the game goes
+//in update
